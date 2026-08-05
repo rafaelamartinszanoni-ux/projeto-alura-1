@@ -5,11 +5,22 @@
                 }
 
                 body {
-                    font-family: 'Poppins', sans-serif;
-                        background: linear-gradient(to bottom, #d8b4fe, #6d28d9, #4f46e5, #f472b6);
-                            color: white;
-                                line-height: 1.6;
-                                }
+                        font-family: 'Poppins', sans-serif;
+
+                            background: linear-gradient(
+                                    to bottom,
+                                            #c79bf7,
+                                                    #2f235d,
+                                                            #5c4ba5,
+                                                                    #77a9ff,
+                                                                            #f5a4c9
+                                                                                );
+
+                                                                                    color: white;
+                                                                                        line-height: 1.6;
+                                                                                        
+                }
+                
 
                                 header {
                                     min-height: 100vh;
