@@ -314,15 +314,15 @@
                     }
                 }
 
-                /* Animação das curiosidades */
-                .curiosidade-card {
-                        animation: subir 0.8s ease both;
+                /* Animação suave dos cards */
+                .album {
+                        animation: aparecer 0.8s ease both;
                 }
 
-                @keyframes subir {
+                @keyframes aparecer {
                         from {
                                     opacity: 0;
-                                            transform: translateY(15px);
+                                            transform: translateY(20px);
                         }
 
                             to {
@@ -331,20 +331,37 @@
                             }
                         }
 
-                        /* Pequeno brilho nas estrelas */
-                        .estrela {
-                                animation: brilho 2s infinite alternate;
+                        /* Animação das curiosidades */
+                        .curiosidade-card {
+                                animation: subir 0.8s ease both;
                         }
 
-                        @keyframes brilho {
+                        @keyframes subir {
                                 from {
-                                            opacity: 0.4;
-                                                    transform: scale(0.8);
+                                            opacity: 0;
+                                                    transform: translateY(15px);
                                 }
 
                                     to {
                                                 opacity: 1;
-                                                        transform: scale(1.2);
+                                                        transform: translateY(0);
                                     }
                                 }
-                        
+
+                                /* Pequeno brilho nas estrelas */
+                                .estrela {
+                                        animation: brilho 2s infinite alternate;
+                                }
+
+                                @keyframes brilho {
+                                        from {
+                                                    opacity: 0.4;
+                                                            transform: scale(0.8);
+                                        }
+
+                                            to {
+                                                        opacity: 1;
+                                                                transform: scale(1.2);
+                                            }
+                                        }
+                            
