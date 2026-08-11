@@ -195,4 +195,35 @@
                                                                             margin-top: 12px;
                                                                                 font-weight: bold;
                                                                                 }
+    .musicas {
+            margin-top: 20px;
+            }
+
+            .musica {
+                margin: 18px 0;
+                    padding: 15px;
+                        border-radius: 18px;
+                            background: rgba(255, 255, 255, 0.12);
+                            }
+
+                            .musica h4 {
+                                margin-bottom: 12px;
+                                    font-size: 1.1rem;
+                                    }
+
+                                    .musica a {
+                                        display: inline-block;
+                                            text-decoration: none;
+                                                margin: 5px;
+                                                    padding: 9px 15px;
+                                                        border-radius: 20px;
+                                                            background: rgba(255, 255, 255, 0.85);
+                                                                color: #5c4ba5;
+                                                                    font-weight: bold;
+                                                                        transition: transform 0.2s ease;
+                                                                        }
+
+                                                                        .musica a:hover {
+                                                                            transform: scale(1.05);
+                                                                            }
             
