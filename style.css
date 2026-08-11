@@ -111,4 +111,27 @@
                                                                                                                                                                                                                                 text-align: center;
                                                                                                                                                                                                                                     padding: 30px;
                                                                                                                                                                                                                                     }
-}
+ .titulo-principal {
+        display: flex;
+            align-items: center;
+                justify-content: center;
+                    gap: 12px;
+                    }
+
+                    .estrela {
+                        font-size: 22px;
+                            animation: brilho 2s infinite alternate;
+                            }
+
+                            @keyframes brilho {
+                                from {
+                                        opacity: 0.4;
+                                                transform: scale(0.8);
+                                                    }
+
+                                                        to {
+                                                                opacity: 1;
+                                                                        transform: scale(1.2);
+                                                                            }
+                                                                            } 
+ 
