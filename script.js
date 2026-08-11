@@ -9,13 +9,9 @@ botaoCurtir.addEventListener("click", function () {
 
         contador.innerHTML = "❤️ " + curtidas + " curtidas";
 
-            if (curtidas === 1) {
+        });
 
-                    alert("💜 Obrigada por visitar o OliviaVerse!");
-
-                        }
-
-                        });
+                    aler
 
                         const curiosidades = [
 
