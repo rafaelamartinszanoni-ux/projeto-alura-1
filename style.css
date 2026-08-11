@@ -297,4 +297,54 @@
                                     font-size: 0.9rem;
                                         font-weight: bold;
                                         }
-         
+         /* Animação suave dos cards */
+         .album {
+                animation: aparecer 0.8s ease both;
+         }
+
+         @keyframes aparecer {
+                from {
+                            opacity: 0;
+                                    transform: translateY(20px);
+                }
+
+                    to {
+                                opacity: 1;
+                                        transform: translateY(0);
+                    }
+                }
+
+                /* Animação das curiosidades */
+                .curiosidade-card {
+                        animation: subir 0.8s ease both;
+                }
+
+                @keyframes subir {
+                        from {
+                                    opacity: 0;
+                                            transform: translateY(15px);
+                        }
+
+                            to {
+                                        opacity: 1;
+                                                transform: translateY(0);
+                            }
+                        }
+
+                        /* Pequeno brilho nas estrelas */
+                        .estrela {
+                                animation: brilho 2s infinite alternate;
+                        }
+
+                        @keyframes brilho {
+                                from {
+                                            opacity: 0.4;
+                                                    transform: scale(0.8);
+                                }
+
+                                    to {
+                                                opacity: 1;
+                                                        transform: scale(1.2);
+                                    }
+                                }
+                        
