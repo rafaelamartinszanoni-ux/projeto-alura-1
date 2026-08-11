@@ -252,4 +252,49 @@
                                                                                                                     );
                                                                                                                         color: #38254d;
                                                                                                                         }
+         .curiosidades {
+                text-align: center;
+                    margin: 60px 20px;
+                    }
+
+                    .curiosidades h2 {
+                        font-family: 'Playfair Display', serif;
+                            font-size: 2rem;
+                                margin-bottom: 30px;
+                                }
+
+                                .curiosidade-card {
+                                    max-width: 650px;
+                                        margin: 20px auto;
+                                            padding: 20px 25px;
+                                                border-radius: 22px;
+                                                    background: rgba(255, 255, 255, 0.16);
+                                                        backdrop-filter: blur(10px);
+                                                            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+                                                                transition: transform 0.3s ease;
+                                                                }
+
+                                                                .curiosidade-card:hover {
+                                                                    transform: translateY(-5px);
+                                                                    }
+
+                                                                    .curiosidade-card p {
+                                                                        margin: 0;
+                                                                            line-height: 1.6;
+                                                                            }
+
+                                                                            .curiosidade-estrela {
+                                                                                display: block;
+                                                                                    font-size: 24px;
+                                                                                        margin-bottom: 8px;
+                                                                                        }
+         .era {
+                display: inline-block;
+                    margin-bottom: 15px;
+                        padding: 6px 14px;
+                            border-radius: 20px;
+                                background: rgba(255, 255, 255, 0.25);
+                                    font-size: 0.9rem;
+                                        font-weight: bold;
+                                        }
          
