@@ -168,4 +168,31 @@
                                                                                             font-size: 1rem;
                                                                                                 opacity: 0.9;
                                                                                                 }
+            .curtida {
+                    text-align: center;
+                        margin: 50px 0;
+                        }
+
+                        #curtir {
+                            background: rgba(255, 255, 255, 0.9);
+                                color: #5c4ba5;
+                                    border: none;
+                                        padding: 14px 28px;
+                                            border-radius: 30px;
+                                                font-size: 17px;
+                                                    font-weight: bold;
+                                                        cursor: pointer;
+                                                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+                                                                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                                                                }
+
+                                                                #curtir:hover {
+                                                                    transform: scale(1.08);
+                                                                        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+                                                                        }
+
+                                                                        #contador {
+                                                                            margin-top: 12px;
+                                                                                font-weight: bold;
+                                                                                }
             
