@@ -11,30 +11,30 @@ botaoCurtir.addEventListener("click", function () {
 
         });
 
-                    aler
 
-                        const curiosidades = [
+        const curiosidades = [
 
-                        "💜 Olivia Rodrigo nasceu em 20 de fevereiro de 2003.",
+            "💜 Olivia Rodrigo nasceu em 20 de fevereiro de 2003.",
 
-                        "🎤 Drivers License ficou semanas no topo das paradas musicais.",
+                "🎤 Drivers License ficou semanas no topo das paradas musicais.",
 
-                        "⭐ Olivia escreve muitas das próprias músicas.",
+                    "🎵 Olivia escreve muitas das próprias músicas.",
 
                         "🎬 Antes da música, Olivia também ficou conhecida como atriz.",
 
-                        "💿 Cada álbum representa uma fase diferente da vida dela."
+                            "💿 Cada álbum representa uma fase diferente da vida dela."
 
-                        ];
+                            ];
 
-                        const botaoCuriosidade = document.getElementById("curiosidade");
 
-                        const texto = document.getElementById("textoCuriosidade");
+                            const botaoCuriosidade = document.getElementById("curiosidade");
+                            const textoCuriosidade = document.getElementById("textoCuriosidade");
 
-                        botaoCuriosidade.addEventListener("click", function () {
 
-                            let numero = Math.floor(Math.random() * curiosidades.length);
+                            botaoCuriosidade.addEventListener("click", function () {
 
-                                texto.innerHTML = curiosidades[numero];
+                                let numero = Math.floor(Math.random() * curiosidades.length);
 
-                                });
+                                    textoCuriosidade.innerHTML = curiosidades[numero];
+
+                                    });
